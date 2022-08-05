@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80050567824",
+    "project_id": "mum-s-kitchen-34e05",
+    "storage_bucket": "mum-s-kitchen-34e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80050567824:android:999b3d52808c38f680f615",
+        "android_client_info": {
+          "package_name": "dream.lab.mumskitchenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80050567824-28n70lt2d04fg7imm12sijkpi88ljl1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACc_vh2GcARqIiCxcQ5EWHHXsWa7hkClM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80050567824-28n70lt2d04fg7imm12sijkpi88ljl1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
