@@ -27,6 +27,7 @@ import dream.lab.mumskitchenapp.CartAdapter.CartAdapter;
 import dream.lab.mumskitchenapp.CartAdapter.DishRvAdapter;
 import dream.lab.mumskitchenapp.Models.Cart;
 import dream.lab.mumskitchenapp.Models.Dish;
+import dream.lab.mumskitchenapp.Utility.SingleToast;
 import dream.lab.mumskitchenapp.viewmodel.DishViewmodel;
 
 
@@ -106,14 +107,16 @@ public class FragmentCart extends Fragment implements CartAdapter.CartOnClickInt
     public void incrementQuantity(Cart cart) {
         boolean status = dishViewmodel.incrementQty(cart);
         if(status == false)
-            Toast.makeText(this.getContext(), "Max quantity is 10!", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this.getContext(), "Max quantity is 10!", Toast.LENGTH_SHORT).show();
+            SingleToast.show(getContext(),"Max quantity is 10!", Toast.LENGTH_SHORT);
     }
 
     @Override
     public void decrementQuantity(Cart cart) {
         boolean status = dishViewmodel.decrementQty(cart);
         if(status == false)
-            Toast.makeText(this.getContext(), "Min quantity is 1!", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this.getContext(), "Min quantity is 1!", Toast.LENGTH_SHORT).show();
+            SingleToast.show(getContext(),"Min quantity is 1!", Toast.LENGTH_SHORT);
     }
 
     @Override
